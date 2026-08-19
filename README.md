@@ -21,22 +21,11 @@ The dataset used for this project consists of a collection of chest X-ray images
 * Output layer: 3 neurons (one for each class), softmax activation for multi-class classification.
 
 ## Model Evaluation
-![merge_from_ofoct](https://user-images.githubusercontent.com/97530517/231857828-bfd7ce92-2b2c-456f-a339-534a87d8da69.jpg)
+
 ![classification](https://user-images.githubusercontent.com/97530517/231857615-47340376-1d2d-4918-b2e6-f141b56273ce.PNG)
 ![confusion_matrix](https://user-images.githubusercontent.com/97530517/231857703-a2c9aac9-f217-4095-b63d-6145e7b95de8.PNG)
 
 ## Sample Predictions
 ![predict](https://user-images.githubusercontent.com/97530517/231856798-74574e8d-fb31-45b0-a681-b9579900924d.jpg)
 
-## How to Run
 
-To run the Streamlit app, follow these steps from the repository root:
-
-1. Install the required dependencies, Run the Streamlit app:
-
-   ```bash
-   pip install -r requirements.txt
-
-   streamlit run App/predict.py
-   ```
-2. Upload a chest X-ray image and click the "Predict Now" button to get the result.
