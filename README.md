@@ -22,8 +22,12 @@ The dataset used for this project consists of a collection of chest X-ray images
 
 ## Model Evaluation
 
-![classification](https://user-images.githubusercontent.com/97530517/231857615-47340376-1d2d-4918-b2e6-f141b56273ce.PNG)
-![confusion_matrix](https://user-images.githubusercontent.com/97530517/231857703-a2c9aac9-f217-4095-b63d-6145e7b95de8.PNG)
+| **Class**       | **Precision** | **Recall** | **F1-Score** |
+| --------------- | ------------: | ---------: | -----------: |
+| Covid           |          0.48 |       0.44 |         0.46 |
+| Viral Pneumonia |          0.42 |       0.35 |         0.38 |
+| Normal          |          0.39 |       0.51 |         0.44 |
+
 
 ## Sample Predictions
 ![predict](https://user-images.githubusercontent.com/97530517/231856798-74574e8d-fb31-45b0-a681-b9579900924d.jpg)
